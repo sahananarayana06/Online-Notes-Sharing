@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <style>
+            nav {
+      background-color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #f4b400;
+    }
+
+    .brand {
+      font-size: 22px;
+    }
+
+    .brand span {
+      color: #f4b400;
+    }
+
+        /* HOME SECTION */
+#home {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+#home .container {
+  max-width: 900px;
+  margin: auto;
+}
+
+#home h1 {
+  color: #f4b400;
+  text-transform: uppercase;
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+#home h2 {
+  color: #222;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+#home p {
+  color: #555;
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+#home ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px auto;
+  text-align: left;
+  display: inline-block;
+}
+
+#home ul li {
+  color: #444;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+#home .join {
+  margin-top: 40px;
+}
+
+#home .btn {
+  background-color: #f4b400;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+
+#home .btn:hover {
+  background-color: #dba900;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  #home h1 {
+    font-size: 1.6em;
+  }
+  #home ul {
+    text-align: left;
+    padding-left: 15px;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <nav> 
+    <img src="Logo.png" alt="StudyNest Logo" style="width: 80px;height: 80px;flex-shrink: 0;"> 
+    <div class="brand">Study<span>Nest</span></div>
+    <div>
+      <a href="home.html">Home</a>
+      <a href="#about">About</a>
+      <a href="#login" onclick="openModal('facultyModal')">Faculty Login</a>
+      <a href="#login" onclick="openModal('studentModal')">Student Login</a>
+      <a href="#login" onclick="openModal('adminModal')">Admin</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+    <section id="home">
+  <div class="container">
+    <h1>Welcome to StudyNest</h1>
+    <p>
+      Your digital nest for learning! StudyNest is your one-stop platform for sharing and discovering 
+      <strong>study notes, learning materials, and project ideas</strong> — made by students, for students. 
+      Whether you’re preparing for exams, exploring new subjects, or revising class notes, 
+      StudyNest makes learning <strong>simpler, faster, and more collaborative</strong>.
+    </p>
+
+    <h2>🌱 Why Choose StudyNest?</h2>
+    <ul>
+      <li>📚 <strong>Share & Access Notes Easily</strong> – Upload your handwritten or digital notes and explore what others have shared.</li>
+      <li>🎓 <strong>Learn from Peers</strong> – Discover notes created by top-performing students and understand concepts better.</li>
+      <li>💡 <strong>Organized by Subjects & Semesters</strong> – Find exactly what you need without wasting time.</li>
+      <li>🔐 <strong>Safe & Secure</strong> – Your data and uploads are protected at every step.</li>
+      <li>🌍 <strong>Anytime, Anywhere</strong> – Access your notes on any device, whenever you need them.</li>
+    </ul>
+
+    <h2>✨ Our Mission</h2>
+    <p>
+      At StudyNest, our mission is to <strong>make education accessible and collaborative</strong>. 
+      We believe that knowledge grows when shared — and every student deserves an easier way to learn, connect, and succeed.
+    </p>
+
+    <h2>📖 What You Can Do</h2>
+    <ul>
+      <li>📝 Upload and organize your class notes</li>
+      <li>🔍 Search for notes by subject, course, or topic</li>
+      <li>👥 Connect with other learners</li>
+      <li>💬 Comment and discuss on shared content</li>
+      <li>📥 Download notes for offline use</li>
+    </ul>
+
+    <div class="join">
+      <h2>🚀 Join the Nest Today!</h2>
+      <p>
+        Create your free account and become part of a growing student community that believes in 
+        <strong>sharing knowledge, not just grades</strong>.  
+        Let’s make learning simpler — together with <strong>StudyNest</strong>.
+      </p>
+      <a href="#login" class="btn">Get Started</a>
+    </div>
+  </div>
+</section>
+</body>
+</html>

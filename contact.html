@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - StudyNest</title>
+    <style>
+     * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f8f9fa;
+      line-height: 1.6;
+    }
+
+    /* NAVBAR */
+    nav {
+      background-color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #f4b400;
+    }
+    .brand {
+      font-size: 22px;
+    }
+
+    .brand span {
+      color: #f4b400;
+    }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+             margin-top: 120px;
+      padding: 40px;
+      text-align: center;
+        }
+        h1 {
+           color: #f4b400;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+        p {
+            max-width: 700px;
+      margin: 10px auto;
+      color: #555;
+      text-align: justify;
+        }
+        strong {
+            color: #e74c3c;
+        }
+          footer {
+      background-color: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    </style>
+</head>
+<body class="container">
+     <nav>
+      <img src="Logo.png" alt="StudyNest Logo" style="width: 80px;height: 80px;flex-shrink: 0;"> 
+    <div class="brand">Study<span>Nest</span></div>
+    <div>
+      <a href="home.html">Home</a>
+      <a href="#about">About</a>
+      <a href="#login" onclick="openModal('facultyModal')">Faculty Login</a>
+      <a href="#login" onclick="openModal('studentModal')">Student Login</a>
+      <a href="#login" onclick="openModal('adminModal')">Admin</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+    <h1>Contact Us</h1>
+    <p>If you have any questions, feedback, or want to get in touch, feel free to email us:</p>
+    <p><strong>Email:</strong> studynest@gmail.com</p>
+    <p>We look forward to hearing from you!</p>
+    <footer>
+      &copy; 2025 StudyNest. All rights reserved.
+
+    </footer>
+</body>
+</html>
