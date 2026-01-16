@@ -14,4 +14,4 @@ An Online Notes Sharing System is a web-based application that allows students a
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** PHP
 - **Database:** MySQL
-- **Server:** XAMPP / WAMP
+- **Server:** XAMPP
