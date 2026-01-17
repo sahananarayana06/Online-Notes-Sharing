@@ -7,7 +7,6 @@
   <title>StudyNest - Notes</title>
   <link rel="stylesheet" href="css/style.css">
   <style>
-    /* BASIC RESET */
     * {
       margin: 0;
       padding: 0;
@@ -20,7 +19,6 @@
       line-height: 1.6;
     }
 
-    /* NAVBAR */
     nav {
       background-color: #fff;
       display: flex;
@@ -245,3 +243,4 @@
   </script>
 </body>
 </html>
+
