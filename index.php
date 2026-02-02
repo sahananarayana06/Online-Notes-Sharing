@@ -199,7 +199,6 @@
     </div>
   </div>
 
-
   <div class="modal" id="studentModal">
     <div class="modal-content">
       <h2>Student Login</h2>
@@ -232,6 +231,7 @@
       </form>
     </div>
   </div>
+  
 
   <script>
     function openModal(id) {
@@ -243,4 +243,5 @@
   </script>
 </body>
 </html>
+
 
