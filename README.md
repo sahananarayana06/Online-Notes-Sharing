@@ -39,7 +39,7 @@ An Online Notes Sharing System is a web-based application that allows students a
 
 ## 📌 Future Enhancements
 
-- File preview feature
+- File preview features
 - Search and filter notes
 - Mobile-friendly UI
 - Cloud storage integration
