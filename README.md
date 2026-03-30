@@ -43,3 +43,4 @@ An Online Notes Sharing System is a web-based application that allows students a
 - Search and filter notes
 - Mobile-friendly UI
 - Cloud storage integration
+---
