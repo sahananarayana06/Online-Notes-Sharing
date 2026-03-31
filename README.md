@@ -13,6 +13,7 @@ An Online Notes Sharing System is a web-based application that allows students a
 - Easy-to-use web interface
 
 ---
+
 ## Technologies Used
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** PHP
