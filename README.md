@@ -30,7 +30,6 @@ An Online Notes Sharing System is a web-based application that allows students a
 
 ---
 
-
 ## 🔒 Security
 
 - Password encryption
