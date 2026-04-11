@@ -3,6 +3,7 @@
 An Online Notes Sharing System is a web-based application that allows students and teachers to upload, manage, and download academic notes easily. This system helps in efficient sharing of study materials and improves accessibility to educational resources.
 
 ---
+
 ## Features
 - User authentication (Admin, Teacher, Student)
 - Upload and download notes
