@@ -41,6 +41,7 @@ An Online Notes Sharing System is a web-based application that allows students a
 ---
 
 ## 📌 Future Enhancement 
+
 - File preview feature
 - Search and filter notes
 - Mobile-friendly UI
