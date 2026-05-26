@@ -34,8 +34,7 @@
       color: #333;
       margin: 0 15px;
       font-weight: bold;
-    }
-
+    }
     nav a:hover {
       color: #f4b400;
     }
