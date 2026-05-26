@@ -41,8 +41,7 @@
 
     .brand {
       font-size: 22px;
-    }
-
+    }
     .brand span {
       color: #f4b400;
     }
