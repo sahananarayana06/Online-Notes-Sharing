@@ -53,8 +53,7 @@
       margin-top: 120px;
       padding: 40px;
       text-align: center;
-    }
-
+    }
     #about h2 {
       color: #f4b400;
       text-transform: uppercase;
