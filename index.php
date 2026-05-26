@@ -56,8 +56,7 @@
       color: #f4b400;
       text-transform: uppercase;
       margin-bottom: 20px;
-    }
-
+    }
     #about p {
       max-width: 700px;
       margin: 10px auto;
