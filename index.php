@@ -16,8 +16,7 @@
     body {
       background-color: #f8f9fa;
       line-height: 1.6;
-    }
-
+    }
     nav {
       background-color: #fff;
       display: flex;
