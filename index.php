@@ -28,8 +28,7 @@
       width: 100%;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
       z-index: 1000;
-    }
-
+    }
     nav a {
       text-decoration: none;
       color: #333;
