@@ -44,8 +44,7 @@
     }
     .brand span {
       color: #f4b400;
-    }
-
+    }
     /* MAIN CONTENT */
     #about {
       margin-top: 120px;
