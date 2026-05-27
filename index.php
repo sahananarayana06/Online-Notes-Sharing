@@ -37,8 +37,7 @@
     }
     nav a:hover {
       color: #f4b400;
-    }
-
+    }
     .brand {
       font-size: 22px;
     }
