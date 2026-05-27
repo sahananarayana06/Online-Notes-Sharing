@@ -75,8 +75,7 @@
       text-align: center;
       padding: 15px;
       margin-top: 40px;
-    }
-
+    }
     /* MODALS */
     .modal {
       display: none;
