@@ -102,8 +102,7 @@
     .modal-content h2 {
       margin-bottom: 15px;
       text-align: center;
-    }
-
+    }
     .modal-content input {
       width: 100%;
       padding: 8px;
