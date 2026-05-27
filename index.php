@@ -60,8 +60,7 @@
       margin: 10px auto;
       color: #555;
       text-align: justify;
-    }
-
+    }
     #about img {
       margin-top: 20px;
       width: 80%;
