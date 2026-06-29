@@ -23,7 +23,6 @@ An Online Notes Sharing System is a web-based application that allows students a
 ---
 
 ## 🎯 Usage
-
 - **Admin**: Manage users and system settings
 - **Teacher**: Upload and organize notes
 - **Student**: Download study materials
